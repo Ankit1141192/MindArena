@@ -1,15 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-@import "tailwindcss";
-=======
+
 @import "tailwindcss";
 
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
->>>>>>> origin/anit
-=======
-@import "tailwindcss";
+
+
 
 /*@import url('https://fonts.googleapis.com/css2?family=Fredoka+One:wght@400&display=swap'); */
 
@@ -23,4 +16,3 @@ body {
   font-family: 'Fredoka One', cursive;
   overflow: hidden;
 }
->>>>>>> origin/akshay
