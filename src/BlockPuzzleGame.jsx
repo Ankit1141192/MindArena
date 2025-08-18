@@ -342,7 +342,7 @@ const BlockPuzzleGame = () => {
   };
 
   return (
-    <section className="min-h-screen grid place-items-center relative p-6" style={{ background: "#0b0b12" }}>
+    <section className="min-h-screen grid place-items-center mt-22 rounded-3xl shadow-2xl overflow-hidden relative p-6" style={{ background: "#0b0b12" }}>
       {isPlaying && gameStarted && (
         <motion.div
           className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 blur-3xl z-0"
@@ -352,7 +352,7 @@ const BlockPuzzleGame = () => {
       )}
 
       <div className="relative z-10 flex flex-col items-center gap-6">
-        <div className="text-center">
+        <div className="text-center mt-40">
           <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">Block Puzzle</h1>
 
           {gameStarted && (

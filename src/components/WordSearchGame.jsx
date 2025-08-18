@@ -46,7 +46,7 @@ export default function WordSearchGame() {
   }, [allFound]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-tr from-cyan-400 via-blue-500 to-indigo-700 p-6 flex flex-col items-center">
+    <div className="min-h-screen bg-gradient-to-tr from-cyan-400 via-blue-500 to-indigo-700 p-6 rounded-3xl shadow-2xl overflow-hidden flex flex-col mt-20 items-center">
       <header className="w-full max-w-5xl flex items-center justify-center space-x-8 mb-6">
         <h1 className="text-4xl font-extrabold text-white animate-glow hover:scale-110 transition-transform duration-500">
           🔎 Word Search
