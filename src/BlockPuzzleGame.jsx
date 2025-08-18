@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect, useCallback } from "react";
 import { motion } from "framer-motion";
+import Button from "./components/Button";
+import RefreshButton from "./components/RefreshButton";
 
 const GRID_SIZE = 10;
 const COLORS = ["#ef4444", "#3b82f6", "#10b981", "#f59e0b", "#8b5cf6"]; 
@@ -367,7 +369,7 @@ const BlockPuzzleGame = () => {
                 {isPlaying ? "Stop Music" : "Play Music"}
               </motion.button>
 
-              <button onClick={resetGame} className="px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 rounded-lg transition-all duration-300 font-semibold transform hover:scale-105">🔄 Reset</button>
+              <button onClick={resetGame} className=""><RefreshButton/></button>
             </div>
           )}
         </div>
@@ -378,9 +380,9 @@ const BlockPuzzleGame = () => {
               onClick={startGame}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-gradient-to-r from-green-500 via-blue-500 to-purple-600 hover:from-green-600 hover:via-blue-600 hover:to-purple-700 px-16 py-8 rounded-2xl text-4xl font-bold transition-all duration-500 shadow-2xl border-2 border-white/20"
+              className=""
             >
-            Start Game
+           <Button/>
             </motion.button>
 
             <div className="text-center text-gray-300 max-w-lg space-y-4">
@@ -396,7 +398,7 @@ const BlockPuzzleGame = () => {
         ) : (
           <>
             {/* Board */}
-            <div className="p-4 rounded-2xl border-2 bg-[#26263a] shadow-2xl" style={{ borderColor: "#646479", boxShadow: "0 0 40px 10px #842fad60" }}>
+            <div className=" flex p-4 rounded-2xl border-2 bg-[#26263a] shadow-2xl" style={{ borderColor: "#646479", boxShadow: "0 0 40px 10px #842fad60" }}>
               <div
                 ref={gridRef}
                 className="grid gap-[0.45rem] relative"
