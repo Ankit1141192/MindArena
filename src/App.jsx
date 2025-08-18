@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from 'react'
 import BlockPuzzleGame from './BlockPuzzleGame'
 
@@ -9,10 +10,20 @@ function App() {
     <div>
     
       <BlockPuzzleGame/>
+=======
+import React from 'react'
+import FlappyBird from './components/FlappyBird'
+
+function App() {
+  return (
+    <div className="min-h-screen bg-game-bg flex items-center justify-center p-5">
+      <FlappyBird />
+>>>>>>> origin/akshay
     </div>
   )
 }
 
+<<<<<<< HEAD
 export default App
 =======
 import React, { useEffect, useMemo, useState } from "react";
@@ -111,3 +122,6 @@ function shuffle(arr) {
   return arr;
 }
 >>>>>>> origin/anit
+=======
+export default App
+>>>>>>> origin/akshay
