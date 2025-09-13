@@ -1,7 +1,7 @@
 ## MindArena
 
-MindArena is a multi-game web application built with React + Vite and Tailwind CSS.
-It brings together fun and engaging games into one platform, allowing users to challenge their minds with:
+MindArena is a multi-game web application that brings together fun, focus, and strategy in one place.
+It is designed for users who want to challenge themselves with different types of games, all inside a single platform.
 
 🐦 Flappy Bird – Classic endless flying game.
 
