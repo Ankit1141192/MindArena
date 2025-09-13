@@ -68,9 +68,9 @@ Anit Baranwal – Developer
 
 Akshay Ponia – Developer
 # Here is Some Screenshots
-## Flappy Bird
+# Flappy Bird
 <img width="1920" height="1080" alt="Screenshot (2251)" src="https://github.com/user-attachments/assets/f4d1a82f-8f10-41f3-a471-a3ae8463ba8a" />
-## Block Puzzle
+# Block Puzzle
 <img width="1920" height="1080" alt="Screenshot (2253)" src="https://github.com/user-attachments/assets/8446ae22-a940-43a1-84bf-92aeab10a38f" />
-## Word Search 
+# Word Search 
 <img width="1920" height="1080" alt="Screenshot (2255)" src="https://github.com/user-attachments/assets/f151a0ae-3b52-4ee5-971f-9bddd4a3e451" />
