@@ -1,12 +1,76 @@
-# React + Vite
+## MindArena
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MindArena is a multi-game web application built with React + Vite and Tailwind CSS.
+It brings together fun and engaging games into one platform, allowing users to challenge their minds with:
 
-Currently, two official plugins are available:
+🐦 Flappy Bird – Classic endless flying game.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧩 Block Puzzle – Strategic block-fitting puzzle game.
 
-## Expanding the ESLint configuration
+🔎 Word Search – Test your vocabulary and focus by finding hidden words.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Currently, the platform is designed for single-player mode.
+
+🚀 Features
+
+🌟 Multiple games in one platform.
+
+🎨 Clean & responsive UI with Tailwind CSS.
+
+⚡ Fast performance powered by React + Vite.
+
+⏱️ Score tracking and interactive gameplay.
+
+🔊 Music & sound effects for immersive experience.
+
+🖼️ Screenshots
+🔎 Word Search
+
+🧩 Block Puzzle
+
+🛠️ Tech Stack
+
+⚛️ React + Vite – Frontend framework for fast development.
+
+🎨 Tailwind CSS – For modern styling and responsive design.
+
+🔗 Context API – Used for theme management.
+
+📦 Installation & Setup
+
+## Clone the repository:
+
+git clone https://github.com/Ankit1141192/MindArena.git
+cd MindArena
+
+
+Install dependencies:
+
+npm install
+
+
+Run the project locally:
+
+npm run dev
+
+
+Build for production:
+
+npm run build
+
+👨‍💻 Collaborators
+
+# This project is built with ❤️ by:
+
+Ankit Kumar – Team Leader
+
+Anit Baranwal – Developer
+
+Akshay Ponia – Developer
+# Here is Some Screenshots
+## Flappy Bird
+<img width="1920" height="1080" alt="Screenshot (2251)" src="https://github.com/user-attachments/assets/f4d1a82f-8f10-41f3-a471-a3ae8463ba8a" />
+## Block Puzzle
+<img width="1920" height="1080" alt="Screenshot (2253)" src="https://github.com/user-attachments/assets/8446ae22-a940-43a1-84bf-92aeab10a38f" />
+## Word Search 
+<img width="1920" height="1080" alt="Screenshot (2255)" src="https://github.com/user-attachments/assets/f151a0ae-3b52-4ee5-971f-9bddd4a3e451" />
